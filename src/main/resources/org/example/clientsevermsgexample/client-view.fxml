@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="ap_main" prefHeight="372.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientsevermsgexample.ClientView">
+<AnchorPane fx:id="ap_main" prefHeight="372.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clientsevermsgexample.ClientViewController">
     <children>
         <Button fx:id="button_send" layoutX="404" layoutY="340" text="Send" />
         <TextField fx:id="tf_message" layoutX="34.0" layoutY="340" prefHeight="26" prefWidth="361" />
